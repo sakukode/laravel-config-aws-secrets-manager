@@ -38,7 +38,7 @@ Update the config with AWS Secret Managers values using artisan command
 php artisan config:cache
 ```
 
-I added config test file in `config/test.php`, so we can check the update config value using artisan command
+I added config test file in `config/test.php`, so we can check that config values using artisan command
 
 ```
 php artisan config:show test
