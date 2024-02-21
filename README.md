@@ -28,7 +28,10 @@ Clone this repository
 git clone https://github.com/sakukode/laravel-config-aws-secrets-manager.git
 ```
 
-and run `composer install`
+run `composer install` and don't forget to copy `.env` file
+```
+cp -r .env.example .env
+```
 
 ### Load the config
 
